@@ -99,6 +99,14 @@
                       @click:append-outer="onEvent($event, obj, appendOuter)"
                       @click:prepend="onEvent($event, obj, prepend)"
                       @click:prepend-inner="onEvent($event, obj, prependInner)"
+                      :dense="obj.dense ? true : false"
+                      :compact="obj.compact ? true : false"
+                      :disabled="obj.disabled ? true : false"
+                      :readonly="obj.readonly ? true : false"
+                      :filled="obj.filled ? true : false"
+                      :hide-details="obj.hideDetails ? true : false"
+                      :outlined="obj.outlined ? true : false"
+                      :solo="obj.solo ? true : false"
                     />
                     <!-- SLOTS append|prepend|message for picker not avilable, try custom component -->
                   </template>
