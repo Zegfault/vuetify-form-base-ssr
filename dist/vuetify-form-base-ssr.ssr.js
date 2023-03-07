@@ -19385,6 +19385,7 @@ var __vue_render__ = function __vue_render__() {
                 attrs: {
                   "type": _vm.checkExtensionType(obj),
                   "value": _vm.setValue(obj),
+                  "model": _vm.model,
                   "obj": obj
                 },
                 on: _vm._d({
@@ -19447,6 +19448,7 @@ var __vue_render__ = function __vue_render__() {
                 attrs: {
                   "type": _vm.checkExtensionType(obj),
                   "value": _vm.setValue(obj),
+                  "model": _vm.model,
                   "obj": obj
                 },
                 on: _vm._d({
@@ -19552,7 +19554,7 @@ var __vue_inject_styles__ = undefined;
 var __vue_scope_id__ = undefined;
 /* module identifier */
 
-var __vue_module_identifier__ = "data-v-4e26d102";
+var __vue_module_identifier__ = "data-v-df255afc";
 /* functional template */
 
 var __vue_is_functional_template__ = false;

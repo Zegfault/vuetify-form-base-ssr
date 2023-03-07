@@ -19333,6 +19333,7 @@ var __vue_render__ = function () {
                 attrs: {
                   "type": _vm.checkExtensionType(obj),
                   "value": _vm.setValue(obj),
+                  "model": _vm.model,
                   "obj": obj
                 },
                 on: _vm._d({
@@ -19395,6 +19396,7 @@ var __vue_render__ = function () {
                 attrs: {
                   "type": _vm.checkExtensionType(obj),
                   "value": _vm.setValue(obj),
+                  "model": _vm.model,
                   "obj": obj
                 },
                 on: _vm._d({
